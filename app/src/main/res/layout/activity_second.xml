@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Second activity"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00BCD4"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="CHOSE YOUR MEAL"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/text"
+        android:text="Easily find the best food\n             you want"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Place order"
+        android:onClick="Two"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/curve"
+        android:textColor="#fff"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
